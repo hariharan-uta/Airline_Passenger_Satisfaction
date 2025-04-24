@@ -26,11 +26,10 @@ The project uses the XGBoost algorithm due to its performance, flexibility, and 
    - [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
 6. [Feature Engineering](#feature-engineering)
 7. [Model Building and Evaluation](#model-building-and-evaluation)
-8. [Results](#results)
-9. [Key Findings](#key-findings)
-10. [Model Performance](#model-performance)
-11. [Conclusion](#conclusion)
-12. [Business Report Conclusion and Future Enhancements](#business-report-conclusion-and-future-enhancements)
+8. [Key Findings](#key-findings)
+9. [Model Performance](#model-performance)
+10. [Conclusion](#conclusion)
+11. [Business Report Conclusion and Future Enhancements](#business-report-conclusion-and-future-enhancements)
 
 ---
 
@@ -85,8 +84,6 @@ jupyter notebook "Airline Passenger Satisfaction Analysis Final.ipynb"
 
 We explored correlations, class imbalance, and key features.
 
-[EDA Screenshot](c:\Users\harih\Downloads\Airline_Passenger_Satisfaction\download.png)
-
 ### Principal Component Analysis (PCA)
 
 PCA was explored for dimensionality reduction but not used in the final model.
@@ -110,13 +107,6 @@ Models used:
 - Decision Tree
 - Random Forest
 - **XGBoost** (chosen)
-
----
-
-## Results
-
-![Satisfaction Distribution](images/satisfaction_distribution.png)
-![Feature Importance](images/feature_importance_xgboost.png)
 
 ---
 
