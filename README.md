@@ -85,7 +85,7 @@ jupyter notebook "Airline Passenger Satisfaction Analysis Final.ipynb"
 
 We explored correlations, class imbalance, and key features.
 
-![EDA Screenshot](c:\Users\harih\Downloads\Airline_Passenger_Satisfaction\download.png)
+[EDA Screenshot](c:\Users\harih\Downloads\Airline_Passenger_Satisfaction\download.png)
 
 ### Principal Component Analysis (PCA)
 
