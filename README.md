@@ -1,7 +1,7 @@
 
-# ✈️ Airline Customer Satisfaction Survey
+# Airline Customer Satisfaction Survey
 
-## 📘 Introduction
+## Introduction
 
 In the fast-paced world of air travel, airlines strive to improve passenger experience and maintain customer loyalty. This project leverages machine learning to analyze customer feedback and predict airline passenger satisfaction based on in-flight services and passenger demographics.
 
@@ -14,7 +14,7 @@ The project uses the XGBoost algorithm due to its performance, flexibility, and 
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Project Overview](#project-overview)
 2. [Installation](#installation)
@@ -34,7 +34,7 @@ The project uses the XGBoost algorithm due to its performance, flexibility, and 
 
 ---
 
-## 📦 Project Overview
+## Project Overview
 
 We aim to build a robust classification model that predicts whether a passenger is "Satisfied" or "Neutral/Dissatisfied" based on features such as class, type of travel, inflight services, delays, and demographics.
 
@@ -46,7 +46,7 @@ We experimented with models like:
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/hariharan-uta/airline-satisfaction-project.git
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```bash
 jupyter notebook "Airline Passenger Satisfaction Analysis Final.ipynb"
@@ -64,7 +64,7 @@ jupyter notebook "Airline Passenger Satisfaction Analysis Final.ipynb"
 
 ---
 
-## 🧾 Data Description
+## Data Description
 
 - **Records**: 103,904 rows
 - **Attributes**:
@@ -75,7 +75,7 @@ jupyter notebook "Airline Passenger Satisfaction Analysis Final.ipynb"
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 ### Descriptive Analysis
 
@@ -93,7 +93,7 @@ PCA was explored for dimensionality reduction but not used in the final model.
 
 ---
 
-## 🛠️ Feature Engineering
+## Feature Engineering
 
 Key steps:
 - One-Hot Encoding
@@ -103,7 +103,7 @@ Key steps:
 
 ---
 
-## 🧠 Model Building and Evaluation
+## Model Building and Evaluation
 
 Models used:
 - Logistic Regression
@@ -113,21 +113,21 @@ Models used:
 
 ---
 
-## 📈 Results
+## Results
 
 ![Satisfaction Distribution](images/satisfaction_distribution.png)
 ![Feature Importance](images/feature_importance_xgboost.png)
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 - Business and longer travel correlates with satisfaction.
 - Wi-Fi, online boarding, and seat comfort are key.
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model            | Accuracy | Precision | Recall | AUC  |
 |------------------|----------|-----------|--------|------|
@@ -140,17 +140,15 @@ Models used:
 
 ---
 
-## 🧾 Conclusion
+## Conclusion
 
 XGBoost provided the best overall performance with strong accuracy, generalization, and interpretability.
 
 ---
 
-## 💼 Business Report Conclusion and Future Enhancements
+## Business Report Conclusion and Future Enhancements
 
 - Use insights to improve service.
 - Deploy real-time models via APIs.
 - Integrate feedback from reviews.
 - Expand to international routes.
-
----
