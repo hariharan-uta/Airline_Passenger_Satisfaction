@@ -126,8 +126,6 @@ Models used:
 | RandomForest     | 95%      | 0.96      | 0.96   | 0.99 |
 | **XGBoost**      | **96%**  | **0.96**  | **0.96**| **0.99** |
 
-![ROC Curve](images/roc_curve_xgboost.png)
-
 ---
 
 ## Conclusion
